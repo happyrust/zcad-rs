@@ -8,7 +8,7 @@
 + Rust 子项目：初始化 `zcad-core`、`zcad-engine`、`zcad-io`、`zcad-frontend`、`zcad-app` 工作区骨架
 + Rust 子项目：引入 DXF 解析占位实现与 covering 集成测试数据
 + Rust 子项目：Bevy 原型新增椭圆与单行/多行文字渲染支持
-+ Rust 子项目：Bevy 原型渲染块参照实体并复用基础材质
++ Rust 子项目：Bevy 原型渲染块参照（含填充与属性对齐）并复用基础材质
 
 ### 更改
 * 修复了块插入的 3D 变换
