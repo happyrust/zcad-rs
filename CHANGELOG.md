@@ -11,6 +11,7 @@
 + Rust 子项目：Bevy 原型渲染块参照（含填充与属性对齐）并复用基础材质
 + Rust 子项目：新增 `block_hatch` DXF 黄金样例覆盖块参照填充
 + Rust 子项目：Bevy 前端新增 Hatch 渐变 shift 与单色覆盖单元测试
++ Rust 子项目：引入 LEADER/MULTILEADER 最小数据结构与 DXF 解析，并补充黄金测试
 
 ### 更改
 * 修复了块插入的 3D 变换
