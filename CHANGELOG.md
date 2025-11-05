@@ -18,6 +18,7 @@
 * Rust 子项目：核心几何改用 `glam` 双精度向量，前端支持可选 `bevy` + `bevy_egui`
 * Rust 子项目：整理阶段 2 实体覆盖矩阵并规划缺口测试
 * Rust 子项目：Bevy 渐变填充现在兼容 AutoCAD True Color、SHIFT 参数，并对角度零向量进行保护
+* Rust 子项目：Bevy 前端适配 0.17 API（Mesh2d、MessageReader、键盘输入升级）
 
 ### 修复
 * Rust 子项目：修正 DXF 属性解析，支持行距参数与基本格式转义
