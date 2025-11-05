@@ -16,6 +16,7 @@
 + Rust 子项目：整理 Raster/Image 实体调研并记录阶段 2 规划更新
 + Rust 子项目：新增 `image_clip_polygon.dxf` 黄金样例，为 IMAGE 多边形裁剪解析与渲染测试提供基准
 + Rust 子项目：IMAGE 解析支持矩形和多边形裁剪，并覆盖黄金测试与单元验证
++ Rust 子项目：`zcad-core` 增加 Raster 图像字典与变量结构，`zcad-io` 解析 `ACAD_IMAGE_DICT` / `RASTERVARIABLES` / `IMAGEDEF_REACTOR` 并刷新黄金测试
 
 ### 更改
 * 修复了块插入的 3D 变换
