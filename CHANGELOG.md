@@ -20,6 +20,7 @@
 * Rust 子项目：Bevy 渐变填充现在兼容 AutoCAD True Color、SHIFT 参数，并对角度零向量进行保护
 * Rust 子项目：Bevy 前端适配 0.17 API（Mesh2d、MessageReader、键盘输入升级）
 * Rust 子项目：复盘阶段 2 行动项并确认 Leader/MLeader、Raster 与对象捕捉为下一批重点
+* Rust 子项目：更新移植开发计划，明确 Leader/MLeader 建模与 Raster 预研的下一步行动
 
 ### 修复
 * Rust 子项目：修正 DXF 属性解析，支持行距参数与基本格式转义
