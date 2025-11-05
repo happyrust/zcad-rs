@@ -15,6 +15,7 @@
 + Rust 子项目：实现 IMAGE/IMAGEDEF 最小解析，新增 `image_basic` 黄金样例覆盖 Raster 实体
 + Rust 子项目：整理 Raster/Image 实体调研并记录阶段 2 规划更新
 + Rust 子项目：新增 `image_clip_polygon.dxf` 黄金样例，为 IMAGE 多边形裁剪解析与渲染测试提供基准
++ Rust 子项目：IMAGE 解析支持矩形和多边形裁剪，并覆盖黄金测试与单元验证
 
 ### 更改
 * 修复了块插入的 3D 变换
