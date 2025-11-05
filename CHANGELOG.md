@@ -14,6 +14,7 @@
 + Rust 子项目：引入 LEADER/MULTILEADER 最小数据结构与 DXF 解析，并补充黄金测试
 + Rust 子项目：实现 IMAGE/IMAGEDEF 最小解析，新增 `image_basic` 黄金样例覆盖 Raster 实体
 + Rust 子项目：整理 Raster/Image 实体调研并记录阶段 2 规划更新
++ Rust 子项目：新增 `image_clip_polygon.dxf` 黄金样例，为 IMAGE 多边形裁剪解析与渲染测试提供基准
 
 ### 更改
 * 修复了块插入的 3D 变换
@@ -25,7 +26,7 @@
 * Rust 子项目：复盘阶段 2 行动项并确认 Leader/MLeader、Raster 与对象捕捉为下一批重点
 * Rust 子项目：更新移植开发计划，明确 Leader/MLeader 建模与 Raster 预研的下一步行动
 * Rust 子项目：补充 Raster 图像资源定位与缓存策略文档，规划阶段 3 执行计划
-* Rust 子项目：盘点 IMAGE 裁剪与字典解析需求，新增裁剪落地计划文档
+* Rust 子项目：盘点 IMAGE 裁剪与字典解析需求，扩充裁剪落地计划并细化解析状态机与数据结构安排
 
 ### 修复
 * Rust 子项目：修正 DXF 属性解析，支持行距参数与基本格式转义
