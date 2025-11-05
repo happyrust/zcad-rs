@@ -12,6 +12,7 @@
 + Rust 子项目：新增 `block_hatch` DXF 黄金样例覆盖块参照填充
 + Rust 子项目：Bevy 前端新增 Hatch 渐变 shift 与单色覆盖单元测试
 + Rust 子项目：引入 LEADER/MULTILEADER 最小数据结构与 DXF 解析，并补充黄金测试
++ Rust 子项目：实现 IMAGE/IMAGEDEF 最小解析，新增 `image_basic` 黄金样例覆盖 Raster 实体
 + Rust 子项目：整理 Raster/Image 实体调研并记录阶段 2 规划更新
 
 ### 更改
