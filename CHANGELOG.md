@@ -18,6 +18,7 @@
 + Rust 子项目：IMAGE 解析支持矩形和多边形裁剪，并覆盖黄金测试与单元验证
 + Rust 子项目：`zcad-core` 增加 Raster 图像字典与变量结构，`zcad-io` 解析 `ACAD_IMAGE_DICT` / `RASTERVARIABLES` / `IMAGEDEF_REACTOR` 并刷新黄金测试
 + Rust 子项目：Bevy 前端渲染 Raster 图像，支持矩形/多边形裁剪与边框显示
++ Rust 子项目：Raster 图像纹理缓存支持按需回收与复用，避免重复加载
 
 ### 更改
 * 修复了块插入的 3D 变换
