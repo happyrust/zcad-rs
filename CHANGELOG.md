@@ -19,6 +19,8 @@
 + Rust 子项目：`zcad-core` 增加 Raster 图像字典与变量结构，`zcad-io` 解析 `ACAD_IMAGE_DICT` / `RASTERVARIABLES` / `IMAGEDEF_REACTOR` 并刷新黄金测试
 + Rust 子项目：Bevy 前端渲染 Raster 图像，支持矩形/多边形裁剪与边框显示
 + Rust 子项目：Raster 图像纹理缓存支持按需回收与复用，避免重复加载
++ Rust 子项目：扩展 MLeader 缩放/狗腿/落脚间隙解析，新增 `mleader_block*.dxf` / `mleader_block_connections.dxf` 黄金样例覆盖多引线路径
++ Rust 子项目：新增 `image_missing_file.dxf` 黄金样例，验证缺失资源场景的占位纹理与日志回退
 
 ### 更改
 * 修复了块插入的 3D 变换
@@ -31,6 +33,7 @@
 * Rust 子项目：更新移植开发计划，明确 Leader/MLeader 建模与 Raster 预研的下一步行动
 * Rust 子项目：补充 Raster 图像资源定位与缓存策略文档，规划阶段 3 执行计划
 * Rust 子项目：盘点 IMAGE 裁剪与字典解析需求，扩充裁剪落地计划并细化解析状态机与数据结构安排
+* Rust 子项目：CLI/Bevy 前端输出多引线块内容时补充缩放、狗腿长度与落脚间隙信息，缺失纹理时使用占位资源
 
 ### 修复
 * Rust 子项目：修正 DXF 属性解析，支持行距参数与基本格式转义
