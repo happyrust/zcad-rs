@@ -21,6 +21,7 @@
 + Rust 子项目：Raster 图像纹理缓存支持按需回收与复用，避免重复加载
 + Rust 子项目：扩展 MLeader 缩放/狗腿/落脚间隙解析，新增 `mleader_block*.dxf` / `mleader_block_connections.dxf` 黄金样例覆盖多引线路径
 + Rust 子项目：新增 `image_missing_file.dxf` 黄金样例，验证缺失资源场景的占位纹理与日志回退
++ Rust 子项目：支持 `resources.runtime_root` 配置并在启动时自动复制运行时资源
 
 ### 更改
 * 修复了块插入的 3D 变换
@@ -34,6 +35,7 @@
 * Rust 子项目：补充 Raster 图像资源定位与缓存策略文档，规划阶段 3 执行计划
 * Rust 子项目：盘点 IMAGE 裁剪与字典解析需求，扩充裁剪落地计划并细化解析状态机与数据结构安排
 * Rust 子项目：CLI/Bevy 前端输出多引线块内容时补充缩放、狗腿长度与落脚间隙信息，缺失纹理时使用占位资源
+* Rust 子项目：CLI 增加 Hatch/Dimension 包围盒诊断，同时依赖新的运行时资源配置
 * Rust 子项目：CLI 增加 Hatch、Dimension 包围盒等调试信息，辅助可视对照
 
 ### 修复
