@@ -22,6 +22,8 @@
 + Rust 子项目：扩展 MLeader 缩放/狗腿/落脚间隙解析，新增 `mleader_block*.dxf` / `mleader_block_connections.dxf` 黄金样例覆盖多引线路径
 + Rust 子项目：新增 `image_missing_file.dxf` 黄金样例，验证缺失资源场景的占位纹理与日志回退
 + Rust 子项目：支持 `resources.runtime_root` 配置并在启动时自动复制运行时资源
++ Rust 子项目：新增 3DFACE 实体数据结构、DXF 解析、Bevy 法向着色预览，支持将 POLYFACE/POLYGON MESH（含 wrap）拆解为 3DFACE，并补充 `face3d_basic.dxf` / `polyface_basic.dxf` / `mesh_grid_basic.dxf` / `mesh_wrap_basic.dxf` 黄金样例测试
++ Rust 子项目：Bevy 3DFACE 渲染支持按平均高度动态分层，减少 3D 面互相穿插，并输出法向诊断信息
 
 ### 更改
 * 修复了块插入的 3D 变换
