@@ -39,6 +39,9 @@
 * Rust 子项目：CLI/Bevy 前端输出多引线块内容时补充缩放、狗腿长度与落脚间隙信息，缺失纹理时使用占位资源
 * Rust 子项目：CLI 增加 Hatch/Dimension 包围盒诊断，同时依赖新的运行时资源配置
 * Rust 子项目：CLI 增加 Hatch、Dimension 包围盒等调试信息，辅助可视对照
+* Rust 子项目：Bevy 前端 Raster 图像纹理缓存改用 IMAGEDEF_REACTOR/IMAGE 字典键并吸纳 RasterImageVariables，避免多实体重复加载相同资源
+
+* Rust 子项目：更新 Raster 图像裁剪计划文档，补充资源引用缓存、shader 验证及测试扩展任务
 
 ### 修复
 * Rust 子项目：修正 DXF 属性解析，支持行距参数与基本格式转义
