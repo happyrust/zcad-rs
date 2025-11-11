@@ -1,0 +1,114 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "RASTER",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "IMAGE",
+      "layer": "RASTER",
+      "data": {
+        "clip": {
+          "kind": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.5,
+              0.0
+            ],
+            [
+              2.5,
+              1.5
+            ],
+            [
+              2.0,
+              2.2
+            ],
+            [
+              1.0,
+              2.1
+            ]
+          ],
+          "mode": "retain interior (default)"
+        },
+        "display_options": {
+          "brightness": 60,
+          "contrast": 60,
+          "fade": 5,
+          "show_border": true,
+          "show_image": true,
+          "use_clipping": true
+        },
+        "image_def_handle": "DEF_RUNTIME1",
+        "image_def_reactor_handle": "R_RUNTIME1",
+        "image_size": [
+          1.5,
+          2.0
+        ],
+        "insert": [
+          0.0,
+          0.0
+        ],
+        "u_vector": [
+          1.0,
+          0.0
+        ],
+        "v_vector": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [
+    {
+      "handle": "DEF_RUNTIME1",
+      "name": "RUNTIME_CLIP",
+      "file_path": "images/runtime_clip.png",
+      "image_size_pixels": [
+        256.0,
+        256.0
+      ],
+      "pixel_size": [
+        0.00390625,
+        0.00390625
+      ]
+    }
+  ],
+  "image_dictionary": {
+    "handle": "D_RUNTIME",
+    "entries": [
+      {
+        "name": "RuntimeImage",
+        "image_def_handle": "DEF_RUNTIME1",
+        "reactor_handle": "R_RUNTIME1"
+      }
+    ]
+  },
+  "raster_image_variables": {
+    "handle": "RV_RUNTIME",
+    "class_version": 0,
+    "frame": 3,
+    "quality": 4,
+    "units": 1
+  },
+  "image_def_reactors": [
+    {
+      "handle": "R_RUNTIME1",
+      "class_version": 2,
+      "owner_handle": "DEF_RUNTIME1",
+      "image_handle": "100"
+    }
+  ]
+}

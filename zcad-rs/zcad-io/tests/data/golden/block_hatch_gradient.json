@@ -1,0 +1,228 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "INSERT",
+      "layer": "0",
+      "data": {
+        "attributes": [
+          {
+            "alignment": [
+              9.2,
+              8.6
+            ],
+            "height": 1.0,
+            "horizontal_align": 1,
+            "insert": [
+              8.0,
+              8.0
+            ],
+            "is_constant": false,
+            "is_invisible": false,
+            "is_preset": false,
+            "is_verify": false,
+            "layer": "0",
+            "line_spacing_factor": 1.0,
+            "line_spacing_style": 0,
+            "lock_position": true,
+            "oblique": 0.0,
+            "prompt": "Primary attribute",
+            "rotation": 0.0,
+            "style": "Standard",
+            "tag": "PATTR",
+            "text": "P1",
+            "vertical_align": 0,
+            "width_factor": 1.0
+          },
+          {
+            "alignment": [
+              11.0,
+              10.3
+            ],
+            "height": 1.0,
+            "horizontal_align": 2,
+            "insert": [
+              10.5,
+              9.8
+            ],
+            "is_constant": false,
+            "is_invisible": false,
+            "is_preset": false,
+            "is_verify": false,
+            "layer": "0",
+            "line_spacing_factor": 1.0,
+            "line_spacing_style": 0,
+            "lock_position": true,
+            "oblique": 0.0,
+            "prompt": "Secondary attribute",
+            "rotation": 0.0,
+            "style": "Standard",
+            "tag": "SATTR",
+            "text": "S2",
+            "vertical_align": 2,
+            "width_factor": 0.9
+          }
+        ],
+        "insert": [
+          8.0,
+          8.0
+        ],
+        "name": "GRADBLOCK",
+        "rotation": 0.4363323129985824,
+        "scale": [
+          1.2,
+          1.1
+        ]
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "GRADBLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [
+        {
+          "kind": "HATCH",
+          "layer": "0",
+          "data": {
+            "gradient": {
+              "angle": 0.0,
+              "color1": 16711680,
+              "color2": 255,
+              "is_single_color": false,
+              "name": "LINEAR",
+              "shift": 0.25,
+              "tint": 0.75
+            },
+            "is_solid": false,
+            "loops": [
+              {
+                "boundary_handles": [],
+                "edges": [
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      4.0,
+                      0.0
+                    ],
+                    "start": [
+                      0.0,
+                      0.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      4.0,
+                      3.0
+                    ],
+                    "start": [
+                      4.0,
+                      0.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      0.0,
+                      3.0
+                    ],
+                    "start": [
+                      4.0,
+                      3.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      0.0,
+                      0.0
+                    ],
+                    "start": [
+                      0.0,
+                      3.0
+                    ],
+                    "type": "PolylineSegment"
+                  }
+                ],
+                "is_closed": true,
+                "is_polyline": true
+              }
+            ],
+            "pattern": "SOLID"
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "alignment": [
+            1.0,
+            0.5
+          ],
+          "default_text": "PRIMARY",
+          "height": 1.0,
+          "horizontal_align": 0,
+          "insert": [
+            0.0,
+            0.0
+          ],
+          "is_constant": false,
+          "is_invisible": false,
+          "is_preset": false,
+          "is_verify": false,
+          "layer": "0",
+          "line_spacing_factor": 1.0,
+          "line_spacing_style": 0,
+          "lock_position": true,
+          "oblique": 0.0,
+          "prompt": "Primary attribute",
+          "rotation": 0.0,
+          "style": "Standard",
+          "tag": "PATTR",
+          "vertical_align": 0,
+          "width_factor": 1.0
+        },
+        {
+          "alignment": [
+            3.0,
+            1.5
+          ],
+          "default_text": "SECONDARY",
+          "height": 1.0,
+          "horizontal_align": 2,
+          "insert": [
+            2.5,
+            0.0
+          ],
+          "is_constant": false,
+          "is_invisible": false,
+          "is_preset": false,
+          "is_verify": false,
+          "layer": "0",
+          "line_spacing_factor": 1.0,
+          "line_spacing_style": 3,
+          "lock_position": true,
+          "oblique": 0.0,
+          "prompt": "Secondary attribute",
+          "rotation": 0.0,
+          "style": "Standard",
+          "tag": "SATTR",
+          "vertical_align": 2,
+          "width_factor": 0.9
+        }
+      ]
+    }
+  ]
+}

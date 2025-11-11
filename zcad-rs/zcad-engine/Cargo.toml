@@ -1,0 +1,9 @@
+[package]
+name = "zcad-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zcad-core = { path = "../zcad-core" }
+thiserror = "1.0"
+tracing = "0.1"

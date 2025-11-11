@@ -1,0 +1,97 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "INSERT",
+      "layer": "0",
+      "data": {
+        "attributes": [
+          {
+            "alignment": [
+              5.5,
+              6.0
+            ],
+            "height": 1.5,
+            "horizontal_align": 1,
+            "insert": [
+              5.0,
+              6.0
+            ],
+            "is_constant": true,
+            "is_invisible": false,
+            "is_preset": false,
+            "is_verify": false,
+            "layer": "0",
+            "line_spacing_factor": 1.2,
+            "line_spacing_style": 1,
+            "lock_position": true,
+            "oblique": 0.0,
+            "prompt": "Multiline prompt",
+            "rotation": 0.0,
+            "style": "Standard",
+            "tag": "MLTAG",
+            "text": "Custom value",
+            "vertical_align": 0,
+            "width_factor": 1.0
+          }
+        ],
+        "insert": [
+          5.0,
+          6.0
+        ],
+        "name": "ML_BLOCK",
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "ML_BLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [],
+      "attributes": [
+        {
+          "alignment": [
+            0.0,
+            0.0
+          ],
+          "default_text": "Line1\nLine2",
+          "height": 1.5,
+          "horizontal_align": 1,
+          "insert": [
+            0.0,
+            0.0
+          ],
+          "is_constant": true,
+          "is_invisible": false,
+          "is_preset": false,
+          "is_verify": false,
+          "layer": "0",
+          "line_spacing_factor": 1.2,
+          "line_spacing_style": 1,
+          "lock_position": false,
+          "oblique": 0.0,
+          "prompt": "Multiline prompt",
+          "rotation": 0.0,
+          "style": "Standard",
+          "tag": "MLTAG",
+          "vertical_align": 0,
+          "width_factor": 1.0
+        }
+      ]
+    }
+  ]
+}

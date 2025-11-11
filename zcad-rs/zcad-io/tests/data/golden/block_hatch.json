@@ -1,0 +1,164 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "INSERT",
+      "layer": "0",
+      "data": {
+        "attributes": [
+          {
+            "alignment": [
+              6.0,
+              6.0
+            ],
+            "height": 1.0,
+            "horizontal_align": 2,
+            "insert": [
+              5.0,
+              5.0
+            ],
+            "is_constant": false,
+            "is_invisible": false,
+            "is_preset": false,
+            "is_verify": false,
+            "layer": "0",
+            "line_spacing_factor": 1.0,
+            "line_spacing_style": 0,
+            "lock_position": true,
+            "oblique": 0.0,
+            "prompt": "Aligned attribute",
+            "rotation": 0.0,
+            "style": "Standard",
+            "tag": "LBL",
+            "text": "VALUE",
+            "vertical_align": 3,
+            "width_factor": 0.8
+          }
+        ],
+        "insert": [
+          5.0,
+          5.0
+        ],
+        "name": "HATCHBLOCK",
+        "rotation": 0.5235987755982988,
+        "scale": [
+          1.5,
+          1.5
+        ]
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "HATCHBLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [
+        {
+          "kind": "HATCH",
+          "layer": "0",
+          "data": {
+            "gradient": null,
+            "is_solid": true,
+            "loops": [
+              {
+                "boundary_handles": [],
+                "edges": [
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      3.0,
+                      0.0
+                    ],
+                    "start": [
+                      0.0,
+                      0.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      3.0,
+                      2.0
+                    ],
+                    "start": [
+                      3.0,
+                      0.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      0.0,
+                      2.0
+                    ],
+                    "start": [
+                      3.0,
+                      2.0
+                    ],
+                    "type": "PolylineSegment"
+                  },
+                  {
+                    "bulge": 0.0,
+                    "end": [
+                      0.0,
+                      0.0
+                    ],
+                    "start": [
+                      0.0,
+                      2.0
+                    ],
+                    "type": "PolylineSegment"
+                  }
+                ],
+                "is_closed": true,
+                "is_polyline": true
+              }
+            ],
+            "pattern": "SOLID"
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "alignment": [
+            1.5,
+            1.0
+          ],
+          "default_text": "LABEL",
+          "height": 1.0,
+          "horizontal_align": 2,
+          "insert": [
+            0.0,
+            0.0
+          ],
+          "is_constant": false,
+          "is_invisible": true,
+          "is_preset": true,
+          "is_verify": false,
+          "layer": "0",
+          "line_spacing_factor": 1.0,
+          "line_spacing_style": 3,
+          "lock_position": true,
+          "oblique": 0.0,
+          "prompt": "Aligned attribute",
+          "rotation": 0.0,
+          "style": "Standard",
+          "tag": "LBL",
+          "vertical_align": 1,
+          "width_factor": 0.8
+        }
+      ]
+    }
+  ]
+}

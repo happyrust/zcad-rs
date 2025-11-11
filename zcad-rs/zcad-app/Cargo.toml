@@ -1,0 +1,10 @@
+[package]
+name = "zcad-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zcad-frontend = { path = "../zcad-frontend" }
+zcad-config = { path = "../zcad-config" }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }

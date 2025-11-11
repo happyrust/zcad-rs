@@ -1,0 +1,110 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "RASTER",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "IMAGE",
+      "layer": "RASTER",
+      "data": {
+        "clip": {
+          "kind": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              2.5,
+              0.2
+            ],
+            [
+              2.3,
+              0.9
+            ],
+            [
+              0.3,
+              0.8
+            ]
+          ],
+          "mode": "retain interior (default)"
+        },
+        "display_options": {
+          "brightness": 60,
+          "contrast": 60,
+          "fade": 5,
+          "show_border": true,
+          "show_image": true,
+          "use_clipping": true
+        },
+        "image_def_handle": "DEF_DICT1",
+        "image_def_reactor_handle": "R_DICT1",
+        "image_size": [
+          2.5,
+          1.0
+        ],
+        "insert": [
+          0.0,
+          0.0
+        ],
+        "u_vector": [
+          1.0,
+          0.0
+        ],
+        "v_vector": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [
+    {
+      "handle": "DEF_DICT1",
+      "name": "DICT_BASIC",
+      "file_path": "images/dict_basic.png",
+      "image_size_pixels": [
+        512.0,
+        512.0
+      ],
+      "pixel_size": [
+        0.001953125,
+        0.001953125
+      ]
+    }
+  ],
+  "image_dictionary": {
+    "handle": "D_DICT",
+    "entries": [
+      {
+        "name": "DictRasterImage",
+        "image_def_handle": "DEF_DICT1",
+        "reactor_handle": "R_DICT1"
+      }
+    ]
+  },
+  "raster_image_variables": {
+    "handle": "RV_DICT",
+    "class_version": 0,
+    "frame": 2,
+    "quality": 2,
+    "units": 3
+  },
+  "image_def_reactors": [
+    {
+      "handle": "R_DICT1",
+      "class_version": 2,
+      "owner_handle": "DEF_DICT1",
+      "image_handle": "100"
+    }
+  ]
+}

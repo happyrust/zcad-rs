@@ -1,0 +1,11 @@
+[logging]
+level = "info"
+
+[frontend]
+default_mode = "cli"
+bevy_window_title = "ZCAD Rust Preview"
+
+[resources]
+image_roots = []
+runtime_root = "runtime"
+auto_copy_runtime = true

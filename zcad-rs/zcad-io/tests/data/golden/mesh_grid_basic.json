@@ -1,0 +1,87 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "MESH",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "3DFACE",
+      "layer": "MESH",
+      "data": {
+        "invisible_edges": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "vertices": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            10.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "kind": "3DFACE",
+      "layer": "MESH",
+      "data": {
+        "invisible_edges": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "vertices": [
+          [
+            10.0,
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            20.0,
+            10.0,
+            0.0
+          ],
+          [
+            20.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [],
+  "image_def_reactors": []
+}

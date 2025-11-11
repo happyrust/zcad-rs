@@ -1,0 +1,110 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "RASTER",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "IMAGE",
+      "layer": "RASTER",
+      "data": {
+        "clip": {
+          "kind": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              2.0,
+              0.2
+            ],
+            [
+              1.8,
+              1.4
+            ],
+            [
+              0.2,
+              1.3
+            ]
+          ],
+          "mode": "retain interior (default)"
+        },
+        "display_options": {
+          "brightness": 60,
+          "contrast": 60,
+          "fade": 5,
+          "show_border": true,
+          "show_image": true,
+          "use_clipping": true
+        },
+        "image_def_handle": "DEF1",
+        "image_def_reactor_handle": "R2",
+        "image_size": [
+          2.0,
+          1.5
+        ],
+        "insert": [
+          0.0,
+          0.0
+        ],
+        "u_vector": [
+          1.0,
+          0.0
+        ],
+        "v_vector": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [
+    {
+      "handle": "DEF1",
+      "name": "SAMPLE_CLIP",
+      "file_path": "images/sample_clip.png",
+      "image_size_pixels": [
+        1024.0,
+        1024.0
+      ],
+      "pixel_size": [
+        0.0009765625,
+        0.0009765625
+      ]
+    }
+  ],
+  "image_dictionary": {
+    "handle": "D1",
+    "entries": [
+      {
+        "name": "ClipImage",
+        "image_def_handle": "DEF1",
+        "reactor_handle": "R2"
+      }
+    ]
+  },
+  "raster_image_variables": {
+    "handle": "RV1",
+    "class_version": 0,
+    "frame": 1,
+    "quality": 1,
+    "units": 3
+  },
+  "image_def_reactors": [
+    {
+      "handle": "R2",
+      "class_version": 2,
+      "owner_handle": "DEF1",
+      "image_handle": "100"
+    }
+  ]
+}

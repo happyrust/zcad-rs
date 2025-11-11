@@ -31,3 +31,9 @@ cad_source/docs/userguide/*.html
 cad_source/zcadversion.inc
 cad_source/utils/typeexporter.res
 cad_source/zcad.res
+
+# Rust (zcad-rs) workspace artifacts:
+target/
+zcad-rs/target/
+zcad-rs/runtime-builder/dist/
+rust/runtime/dist/

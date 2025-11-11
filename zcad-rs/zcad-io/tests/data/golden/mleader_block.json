@@ -1,0 +1,121 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "ANNOT",
+      "is_visible": true
+    },
+    {
+      "name": "SYMBOL",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "MULTILEADER",
+      "layer": "ANNOT",
+      "data": {
+        "content": {
+          "block_handle": "31",
+          "block_name": "SYMBOL_BLOCK",
+          "connection_type": 0,
+          "kind": "block",
+          "location": [
+            20.0,
+            20.0
+          ],
+          "rotation": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        "dogleg_length": 8.0,
+        "has_dogleg": true,
+        "landing_gap": 2.0,
+        "leader_lines": [
+          {
+            "vertices": [
+              [
+                19.0,
+                20.0
+              ],
+              [
+                11.0,
+                20.0
+              ],
+              [
+                -10.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          }
+        ],
+        "scale": 1.0,
+        "style_name": null,
+        "text_height": 4.0
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "SYMBOL_BLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [
+        {
+          "kind": "CIRCLE",
+          "layer": "SYMBOL",
+          "data": {
+            "center": [
+              0.0,
+              0.0
+            ],
+            "radius": 1.0
+          }
+        },
+        {
+          "kind": "LINE",
+          "layer": "SYMBOL",
+          "data": {
+            "end": [
+              1.0,
+              0.0
+            ],
+            "start": [
+              -1.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "kind": "LINE",
+          "layer": "SYMBOL",
+          "data": {
+            "end": [
+              0.0,
+              1.0
+            ],
+            "start": [
+              0.0,
+              -1.0
+            ]
+          }
+        }
+      ],
+      "attributes": []
+    }
+  ],
+  "image_definitions": [],
+  "image_def_reactors": []
+}

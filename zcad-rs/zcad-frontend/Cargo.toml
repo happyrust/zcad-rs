@@ -1,0 +1,21 @@
+[package]
+name = "zcad-frontend"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["cli"]
+cli = []
+bevy_app = ["bevy", "bevy_egui", "image"]
+
+[dependencies]
+zcad-core = { path = "../zcad-core" }
+zcad-engine = { path = "../zcad-engine" }
+zcad-io = { path = "../zcad-io" }
+zcad-config = { path = "../zcad-config" }
+bevy = { version = "0.17.2", optional = true }
+bevy_egui = { version = "0.38.0", optional = true }
+thiserror = "1.0"
+tracing = "0.1"
+glam = "0.30"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "bmp", "gif", "ico", "tga", "dds", "hdr"], optional = true }

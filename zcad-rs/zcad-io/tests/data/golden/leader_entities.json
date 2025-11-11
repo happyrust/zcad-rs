@@ -1,0 +1,71 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "ANNOT",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "LEADER",
+      "layer": "ANNOT",
+      "data": {
+        "has_arrowhead": true,
+        "style_name": "Standard",
+        "vertices": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            25.0,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "kind": "MULTILEADER",
+      "layer": "ANNOT",
+      "data": {
+        "content": {
+          "kind": "mtext",
+          "location": [
+            45.0,
+            13.0
+          ],
+          "text": "Note line 1\nNote line 2"
+        },
+        "dogleg_length": null,
+        "has_dogleg": false,
+        "landing_gap": null,
+        "leader_lines": [
+          {
+            "vertices": [
+              [
+                25.0,
+                10.0
+              ],
+              [
+                40.0,
+                12.0
+              ]
+            ]
+          }
+        ],
+        "scale": 2.5,
+        "style_name": "Standard",
+        "text_height": null
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [],
+  "image_def_reactors": []
+}

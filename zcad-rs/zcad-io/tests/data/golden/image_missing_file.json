@@ -1,0 +1,42 @@
+{
+  "layers": [
+    { "name": "0", "is_visible": true },
+    { "name": "RASTER", "is_visible": true }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "IMAGE",
+      "layer": "RASTER",
+      "data": {
+        "image_def_handle": "20",
+        "image_def_reactor_handle": null,
+        "insert": [0.0, 0.0],
+        "u_vector": [1.0, 0.0],
+        "v_vector": [0.0, 1.0],
+        "image_size": [2.0, 1.0],
+        "display_options": {
+          "show_image": true,
+          "show_border": false,
+          "use_clipping": false,
+          "brightness": null,
+          "contrast": null,
+          "fade": null
+        },
+        "clip": null
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [
+    {
+      "handle": "20",
+      "name": null,
+      "file_path": "missing/path/to/image.png",
+      "image_size_pixels": [2.0, 1.0],
+      "pixel_size": null,
+      "resolved_path": null
+    }
+  ],
+  "image_def_reactors": []
+}

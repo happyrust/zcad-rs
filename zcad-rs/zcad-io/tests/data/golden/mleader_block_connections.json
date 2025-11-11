@@ -1,0 +1,265 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "ANNOT",
+      "is_visible": true
+    },
+    {
+      "name": "ATTR",
+      "is_visible": true
+    },
+    {
+      "name": "SYM_A",
+      "is_visible": true
+    },
+    {
+      "name": "SYM_B",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "MULTILEADER",
+      "layer": "ANNOT",
+      "data": {
+        "content": {
+          "block_handle": "33",
+          "block_name": "VALVE_BLOCK",
+          "connection_type": 0,
+          "kind": "block",
+          "location": [
+            10.0,
+            10.0
+          ],
+          "rotation": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        "dogleg_length": 8.0,
+        "has_dogleg": true,
+        "landing_gap": 2.0,
+        "leader_lines": [
+          {
+            "vertices": [
+              [
+                9.0,
+                10.0
+              ],
+              [
+                1.0,
+                10.0
+              ],
+              [
+                -20.0,
+                10.0
+              ],
+              [
+                -5.0,
+                10.0
+              ]
+            ]
+          }
+        ],
+        "scale": 1.0,
+        "style_name": null,
+        "text_height": 4.0
+      }
+    },
+    {
+      "id": 1,
+      "kind": "MULTILEADER",
+      "layer": "ANNOT",
+      "data": {
+        "content": {
+          "block_handle": "38",
+          "block_name": "JUNCTION_BLOCK",
+          "connection_type": 1,
+          "kind": "block",
+          "location": [
+            10.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        "dogleg_length": 2.0,
+        "has_dogleg": true,
+        "landing_gap": 0.0,
+        "leader_lines": [
+          {
+            "vertices": [
+              [
+                10.0,
+                1.0
+              ],
+              [
+                14.0,
+                1.0
+              ],
+              [
+                30.0,
+                0.0
+              ],
+              [
+                18.0,
+                0.0
+              ]
+            ]
+          }
+        ],
+        "scale": 1.0,
+        "style_name": null,
+        "text_height": 4.0
+      }
+    },
+    {
+      "id": 2,
+      "kind": "MULTILEADER",
+      "layer": "ANNOT",
+      "data": {
+        "content": {
+          "block_handle": "33",
+          "block_name": "VALVE_BLOCK",
+          "connection_type": 0,
+          "kind": "block",
+          "location": [
+            0.0,
+            5.0
+          ],
+          "rotation": 0.0,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        },
+        "dogleg_length": 8.0,
+        "has_dogleg": true,
+        "landing_gap": 2.0,
+        "leader_lines": [
+          {
+            "vertices": [
+              [
+                -0.8,
+                5.0
+              ],
+              [
+                0.0,
+                5.8
+              ],
+              [
+                0.0,
+                30.0
+              ],
+              [
+                0.0,
+                18.0
+              ]
+            ]
+          }
+        ],
+        "scale": 1.0,
+        "style_name": null,
+        "text_height": 4.0
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "JUNCTION_BLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [
+        {
+          "kind": "LINE",
+          "layer": "SYM_B",
+          "data": {
+            "end": [
+              2.0,
+              0.0
+            ],
+            "start": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "kind": "LINE",
+          "layer": "SYM_B",
+          "data": {
+            "end": [
+              0.0,
+              2.0
+            ],
+            "start": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "attributes": []
+    },
+    {
+      "name": "VALVE_BLOCK",
+      "base_point": [
+        0.0,
+        0.0
+      ],
+      "entities": [
+        {
+          "kind": "CIRCLE",
+          "layer": "SYM_A",
+          "data": {
+            "center": [
+              0.0,
+              0.0
+            ],
+            "radius": 1.0
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "alignment": null,
+          "default_text": "TAG",
+          "height": 0.5,
+          "horizontal_align": 0,
+          "insert": [
+            0.0,
+            -1.5
+          ],
+          "is_constant": false,
+          "is_invisible": false,
+          "is_preset": false,
+          "is_verify": false,
+          "layer": "ATTR",
+          "line_spacing_factor": 1.0,
+          "line_spacing_style": 0,
+          "lock_position": false,
+          "oblique": 0.0,
+          "prompt": "",
+          "rotation": 0.0,
+          "style": null,
+          "tag": "TAG",
+          "vertical_align": 0,
+          "width_factor": 1.0
+        }
+      ]
+    }
+  ],
+  "image_definitions": [],
+  "image_def_reactors": []
+}

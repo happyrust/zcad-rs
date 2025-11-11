@@ -1,0 +1,54 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "DIMENSIONS",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "DIMENSION",
+      "layer": "DIMENSIONS",
+      "data": {
+        "kind": "Diameter",
+        "definition_point": [
+          0.0,
+          0.0
+        ],
+        "text_midpoint": [
+          2.0,
+          1.0
+        ],
+        "dimension_line_point": [
+          2.0,
+          0.0
+        ],
+        "extension_line_origin": [
+          0.0,
+          0.0
+        ],
+        "extension_line_end": [
+          4.0,
+          0.0
+        ],
+        "secondary_point": null,
+        "arc_definition_point": null,
+        "center_point": [
+          2.0,
+          0.0
+        ],
+        "text": "20",
+        "measurement": 20.0,
+        "rotation": 0.0,
+        "text_rotation": null,
+        "oblique_angle": null
+      }
+    }
+  ],
+  "blocks": []
+}

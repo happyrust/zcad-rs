@@ -1,0 +1,13 @@
+[package]
+name = "zcad-io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zcad-core = { path = "../zcad-core" }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+
+[dev-dependencies]
+serde_json = "1.0"
+glam = "0.30"

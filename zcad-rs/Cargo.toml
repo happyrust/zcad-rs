@@ -1,0 +1,3 @@
+[workspace]
+members = ["runtime-builder","zcad-app", "zcad-config", "zcad-core", "zcad-engine", "zcad-frontend", "zcad-io"]
+resolver = "2"

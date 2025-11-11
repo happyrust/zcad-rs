@@ -1,0 +1,89 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "RASTER",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "IMAGE",
+      "layer": "RASTER",
+      "data": {
+        "clip": null,
+        "display_options": {
+          "brightness": 50,
+          "contrast": 50,
+          "fade": 10,
+          "show_border": true,
+          "show_image": true,
+          "use_clipping": true
+        },
+        "image_def_handle": "ABC",
+        "image_def_reactor_handle": "R1",
+        "image_size": [
+          2.0,
+          1.0
+        ],
+        "insert": [
+          0.0,
+          0.0
+        ],
+        "u_vector": [
+          1.0,
+          0.0
+        ],
+        "v_vector": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "blocks": [],
+  "image_definitions": [
+    {
+      "handle": "ABC",
+      "name": "SAMPLE_IMAGE",
+      "file_path": "images/sample.png",
+      "image_size_pixels": [
+        1024.0,
+        512.0
+      ],
+      "pixel_size": [
+        0.0009765625,
+        0.001953125
+      ]
+    }
+  ],
+  "image_dictionary": {
+    "handle": "D1",
+    "entries": [
+      {
+        "name": "SampleImage",
+        "image_def_handle": "ABC",
+        "reactor_handle": "R1"
+      }
+    ]
+  },
+  "raster_image_variables": {
+    "handle": "RV1",
+    "class_version": 0,
+    "frame": 1,
+    "quality": 1,
+    "units": 3
+  },
+  "image_def_reactors": [
+    {
+      "handle": "R1",
+      "class_version": 2,
+      "owner_handle": "ABC",
+      "image_handle": "1"
+    }
+  ]
+}

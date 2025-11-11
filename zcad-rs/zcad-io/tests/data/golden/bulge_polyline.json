@@ -1,0 +1,39 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "BULGE",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "LWPOLYLINE",
+      "layer": "BULGE",
+      "data": {
+        "is_closed": false,
+        "vertices": [
+          {
+            "bulge": 1.0,
+            "position": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "bulge": 0.0,
+            "position": [
+              10.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "blocks": []
+}

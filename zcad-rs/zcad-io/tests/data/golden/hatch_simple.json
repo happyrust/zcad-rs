@@ -1,0 +1,82 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "HATCH",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "HATCH",
+      "layer": "HATCH",
+      "data": {
+        "pattern": "SOLID",
+        "is_solid": true,
+        "gradient": null,
+        "loops": [
+          {
+            "is_polyline": true,
+            "is_closed": true,
+            "boundary_handles": [],
+            "edges": [
+              {
+                "type": "PolylineSegment",
+                "start": [
+                  0.0,
+                  0.0
+                ],
+                "end": [
+                  6.0,
+                  0.0
+                ],
+                "bulge": 0.0
+              },
+              {
+                "type": "PolylineSegment",
+                "start": [
+                  6.0,
+                  0.0
+                ],
+                "end": [
+                  6.0,
+                  4.0
+                ],
+                "bulge": 0.0
+              },
+              {
+                "type": "PolylineSegment",
+                "start": [
+                  6.0,
+                  4.0
+                ],
+                "end": [
+                  0.0,
+                  4.0
+                ],
+                "bulge": 0.0
+              },
+              {
+                "type": "PolylineSegment",
+                "start": [
+                  0.0,
+                  4.0
+                ],
+                "end": [
+                  0.0,
+                  0.0
+                ],
+                "bulge": 0.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "blocks": []
+}

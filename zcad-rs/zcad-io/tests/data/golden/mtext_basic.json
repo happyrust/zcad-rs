@@ -1,0 +1,36 @@
+{
+  "layers": [
+    {
+      "name": "0",
+      "is_visible": true
+    },
+    {
+      "name": "ANNOT",
+      "is_visible": true
+    }
+  ],
+  "entities": [
+    {
+      "id": 0,
+      "kind": "MTEXT",
+      "layer": "ANNOT",
+      "data": {
+        "attachment_point": 5,
+        "content": "Line1\nLine2",
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "drawing_direction": 1,
+        "height": 2.5,
+        "insert": [
+          5.0,
+          6.0
+        ],
+        "reference_width": null,
+        "style": "Standard"
+      }
+    }
+  ],
+  "blocks": []
+}
